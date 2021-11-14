@@ -1,0 +1,195 @@
+/* 
+Theme:Personal Portfolio;
+Version:1.0;
+Author:Kammeta Prathap;
+
+*/
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.clearfix{
+    float:none;
+    clear:both;
+}
+.text-right{
+    text-align: right;
+}
+/* image responsive  */
+.text-center{
+    text-align:center;
+}
+.img-responsive{
+    width:100%;
+}
+/* button explore my projects */
+.btn{
+    
+    background-color:darkviolet;
+    color:white;
+    padding:2%;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-color:white;
+    color:indigo;
+}
+.mb-5{
+    margin-bottom:3%;
+}
+/* image responsive ends */
+
+/* .col-2  whole about section into two divisions    */
+
+.col-2{
+
+    width:49.5%;
+    float:left;
+
+}
+.col-3{
+
+    width:28%;
+    float:left;
+    margin:2%;
+}    
+.col-4{
+       width:20%;
+    float:left;
+    margin:2%;
+}
+
+.wrapper{
+       width:80%;
+    margin:0 auto;
+    padding:1%;
+}
+
+/* css for navbar  */
+.logo{
+    width:20%;
+    float:left;
+    font-weight: bold;
+}
+.menu {
+    width:70%;
+       float:right;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display:inline;
+    padding:2%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+/* css for about section  */
+.about{
+    margin-bottom:5%;
+}
+.about-title{
+margin-bottom:3%;
+}
+.about-subtitle{
+    font-weight: bold;
+    color:darkmagenta;
+    margin-bottom:8%;
+}
+.about-description{
+    font-size:1.2em;
+    line-height: 30px;
+    margin-bottom: 60%;
+}
+/* css for projects section */
+.projects{
+    margin-bottom:5%;
+}
+.projects a{
+color:white;
+font-weight: bold;
+font-size:0.7em;
+}
+.projects a:hover{
+    color: lightblue;
+}
+.project-box{
+    position:relative;
+
+}
+.project-title{
+    position:absolute;
+    top:80%;
+    padding:3%;
+
+}
+/* css for skill */
+.skills{
+    margin-bottom:5%;
+}
+.skill-box{
+    margin-bottom: 3%;
+}
+.skill-title{
+    font-size:1em; 
+    line-height:40px;
+}
+.skill-meter{
+       width:90%;
+    float:right;
+}
+
+/* css for Blogs */
+.blog{
+    margin-bottom:5%;
+}
+.blog-title{
+
+    padding:5% 2%;
+}
+
+/* css  for footer */
+
+footer{
+    padding-bottom:5%;
+
+}
+footer ul{
+    list-style-type: none;
+
+}
+footer ul li{
+    display: inline;
+    padding:2%;
+}
+/* css for mobile devices */
+
+@media only screen and (max-width:768px){
+
+.logo{
+    width:100%;
+    text-align:center;
+    margin-bottom:2%;
+}
+.menu{
+    width:100%;
+    text-align: center;
+    margin-bottom:5%;
+}
+.col-2 ,.col-4,.col-3{
+    width:100%;
+    text-align:center;
+    margin-bottom:8%;
+}
+.skill-meter{
+    width:100%;
+}
